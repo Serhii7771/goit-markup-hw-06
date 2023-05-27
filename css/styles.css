@@ -825,6 +825,10 @@ body {
 }
 
 .contact-form-input:focus + .modal-span {
+  background-color: var(--modal-span-policy);
+  border: none;
+  fill: var(--accent-color);
+  border-color: var(--modal-span-policy);
 }
 
 .form-span-policy {
@@ -912,10 +916,6 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  background-color: var(--modal-span-policy);
-  border: none;
-  fill: var(--accent-color);
-  border-color: var(--modal-span-policy);
 }
 
 .modal-button {
