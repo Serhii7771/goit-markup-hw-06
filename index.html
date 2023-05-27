@@ -373,16 +373,74 @@
                     </li>
                 </ul>
             </div>
+
+            <div>
+                <p class="subscribe">Subscribe</p>
+                <div>
+                    <form>
+                        <label>
+                            <input type="mail" name="user-footer-mail" placeholder="E-mail">
+                        </label>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
         </div>
 
+
+
     </footer>
-    <div class="window is-hidden" data-modal>
+    <div class="window " data-modal>
         <div class="window-modal">
             <button type="button" class="button-modal" data-modal-close>
                 <svg class="button-modal-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg></button>
+            <form>
+                <p class="form-p">Leave your contacts and we will call you back</p>
+                <label class="contact-form-field">
+                    <span class="form-span">Name</span>
+                    <span class="contact-form-input-wrapper">
+                        <input class="contact-form-input" type="text" name="user-first-name" required
+                            pattern="[a-zA-Zа-яА-ЯіІїЇґҐʼ]+">
+                        <svg class="" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Vector-5"></use>
+                        </svg>
+                    </span>
 
+                </label>
+                <label class="contact-form-field">
+                    <span class="form-span">Phone</span>
+                    <span class="contact-form-input-wrapper">
+                        <input class="contact-form-input" type="tel" name="user-tel" required
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+                        <svg class="" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Vector-4"></use>
+                        </svg>
+                    </span>
+
+                </label>
+                <label class="contact-form-field">
+                    <span class="form-span">Email</span>
+                    <span class="contact-form-input-wrapper">
+                        <input class="contact-form-input" type="email" name="user-email" required>
+                        <svg class="" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Vector-3"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="contact-form-field">
+                    <span class="form-span">Comment</span>
+                    <textarea class="contact-form-messege" name="user-comment" placeholder="Text input"></textarea>
+                </label>
+                <label class="contact-form-checkbox">
+                    <input class="" type="checkbox" name="user-policy">
+                    <span class="form-span-policy">I accept the terms and conditions of the <a href="#">Privacy
+                            Policy</a></span>
+                </label>
+                <button type="submit">Send</button>
+            </form>
         </div>
 
     </div>
