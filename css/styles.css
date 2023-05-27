@@ -817,13 +817,13 @@ body {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* fill: #4d5ae5; */
+  fill: #4d5ae5;
 }
 
 .contact-form-input:focus {
   border: 1px solid #4d5ae5;
   outline: none;
-  fill: #4d5ae5;
+  /* fill: #4d5ae5; */
 }
 
 .modal-checkbox:checked + .modal-label-ceckbox {
