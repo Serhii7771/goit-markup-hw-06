@@ -825,7 +825,7 @@ body {
   fill: #4d5ae5;
 }
 
-.contact-form-input:checked + .modal-label-ceckbox {
+.modal-checkbox:checked + .modal-label-ceckbox {
   background-color: var(--modal-span-policy);
   border: none;
   fill: var(--accent-color);
@@ -939,8 +939,4 @@ body {
 
 .border {
   border: 1px solid rgba(46, 47, 66, 0.4);
-}
-
-.modal-span-policy {
-  margin-right: 2px;
 }
