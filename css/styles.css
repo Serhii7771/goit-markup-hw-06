@@ -646,6 +646,10 @@ body {
   margin-bottom: 16px;
 }
 
+.footer-svg {
+  margin-left: 16px;
+}
+
 .footer-button {
   min-width: 165px;
   height: 40px;
