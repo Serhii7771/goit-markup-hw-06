@@ -13,6 +13,8 @@
   --modal-form-p: #2e2f42;
   --modal-label: #8e8f99;
   --modal-chackbox: #8e8f99;
+  --modal-policy: #4d5ae5;
+  --modal-span-policy: #404bbf;
 }
 
 .list {
@@ -821,8 +823,11 @@ body {
   outline: none;
 }
 
-.contact-form-input:focus + .modal-svg {
-  fill: #4d5ae5;
+.contact-form-input:focus + .modal-span {
+  background-color: var(--modal-span-policy);
+  border: none;
+  fill: var(--accent-color);
+  border-color: var(--modal-span-policy);
 }
 
 .form-span-policy {
@@ -897,6 +902,10 @@ body {
   color: var(--modal-chackbox);
 }
 
+.modal-span-a {
+  color: var(--modal-policy);
+}
+
 .modal-span {
   width: 16px;
   height: 16px;
@@ -906,4 +915,20 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.modal-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
