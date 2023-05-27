@@ -917,6 +917,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border: none;
 }
 
 .modal-button {
