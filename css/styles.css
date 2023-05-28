@@ -834,7 +834,7 @@ body {
   position: absolute;
 }
 
-.modal-label-ceckbox:checked + .modal-span-policy {
+.visually-hidden:checked + .modal-span {
   background-color: var(--modal-span-policy);
   border: none;
   fill: var(--accent-color);
