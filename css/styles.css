@@ -834,7 +834,7 @@ body {
   position: absolute;
 }
 
-.contact-form-checkbox :checked + .modal-span-policy {
+.modal-form-input-pp:checked + .modal-label-ceckbox {
   background-color: var(--modal-span-policy);
   border: none;
   fill: var(--accent-color);
@@ -926,6 +926,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-button {
