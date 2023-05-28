@@ -835,6 +835,7 @@ body {
 }
 
 .modal-form-input-pp {
+  margin-bottom: 24px;
 }
 
 .modal-form-input-pp:checked + .modal-span-policy {
@@ -930,6 +931,7 @@ body {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .modal-button {
