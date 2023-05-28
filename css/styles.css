@@ -834,7 +834,10 @@ body {
   position: absolute;
 }
 
-.visually-hidden:checked + .modal-span {
+.modal-form-input-pp {
+}
+
+.modal-form-input-pp:checked + .modal-span {
   background-color: var(--modal-span-policy);
   border: none;
   fill: var(--accent-color);
