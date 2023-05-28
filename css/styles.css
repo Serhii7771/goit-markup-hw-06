@@ -842,7 +842,7 @@ body {
   fill: #4d5ae5;
 }
 
-.modal-form-input-pp:checked + .modal-span-policy > .modal-span {
+.modal-form-input-pp:checked + .modal-span-policy > .modal-policy-svg {
   background-color: var(--modal-span-policy);
   border: none;
   fill: var(--accent-color);
