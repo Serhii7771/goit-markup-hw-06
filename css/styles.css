@@ -829,8 +829,11 @@ body {
   /* fill: #4d5ae5; */
 }
 
-.modal-checkbox:checked + .modal-span-policy {
-  fill: #4d5ae5;
+.modal-label-ceckbox:checked + .modal-span-policy {
+  background-color: var(--modal-span-policy);
+  border: none;
+  fill: var(--accent-color);
+  border-color: var(--modal-span-policy);
 }
 
 .form-span-policy {
