@@ -838,7 +838,7 @@ body {
   margin-bottom: 24px;
 }
 
-.modal-form-input-pp:focus + .modal-svg {
+.contact-form-input:focus + .modal-svg {
   fill: #4d5ae5;
 }
 
