@@ -829,11 +829,8 @@ body {
   /* fill: #4d5ae5; */
 }
 
-.modal-checkbox:checked + .modal-label-ceckbox {
-  background-color: var(--modal-span-policy);
-  border: none;
-  fill: var(--accent-color);
-  border-color: var(--modal-span-policy);
+.modal-checkbox:checked + .modal-span-policy {
+  fill: #4d5ae5;
 }
 
 .form-span-policy {
